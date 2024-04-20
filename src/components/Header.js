@@ -6,6 +6,7 @@ import ContactMe from "./ContactMe";
 import Footer from './Footer';
 import AboutMe from './AboutMe';
 import { FaBars } from 'react-icons/fa';
+import cvPdf from '../photos/mikiyasKorecv.pdf';
 
 const Header = () => {
     const [expanded, setExpanded] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
                             <Nav.Link href="#about" onClick={() => setExpanded(false)}>About Me</Nav.Link>
                             <Nav.Link href="#portfolio" onClick={() => setExpanded(false)}>Portfolio</Nav.Link>
                             <Nav.Link href="#contact" onClick={() => setExpanded(false)}>Contact Me</Nav.Link>
-                            <Nav.Link href="#resume" onClick={() => setExpanded(false)}>CV</Nav.Link>
+                            <Nav.Link href={cvPdf} onClick={() => setExpanded(false)}>CV</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

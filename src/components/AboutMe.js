@@ -28,6 +28,9 @@ const AboutMe = () => {
                             <li className="nav-item">
                                 <button className={`nav-link ${about === "education" ? "active disabled" : ""}`} onClick={() => setAbout('education')}>Education</button>
                             </li>
+                            <li className="nav-item">
+                                <button className={`nav-link ${about === "certificate" ? "active disabled" : ""}`} onClick={() => setAbout('certificate')}>Certificate</button>
+                            </li>
                         </ul>
                         {/* Content Based on Selected Tab */}
                         {about === 'skills' && (
@@ -98,6 +101,29 @@ const AboutMe = () => {
                                 </ul>
                             </div>
                         )}
+                        {about === 'certificate' && (
+                            <div>
+                                <h3>Certificates</h3>
+                                <ul>
+                                    <li className="mb-4">
+                                        <span className="font-weight-bold font-italic" style={{ color: "#0dcaf0" }}>ALX Software Engineering Program Certificate</span>
+                                        <br />
+                                        <a href="https://intranet.alxswe.com/certificates/PmBHNXE3Gx" target="_blank">View Certificate</a>
+                                    </li>
+                                    <li className="mb-4">
+                                        <span className="font-weight-bold font-italic" style={{ color: "#0dcaf0" }}>Java Certificate</span>
+                                        <br />
+                                        <a href="https://www.udemy.com/certificate/UC-ace293d5-a467-4952-8f88-8f32bef5c80f/" target="_blank">View Certificate</a>
+                                    </li>
+                                    <li className="mb-4">
+                                        <span className="font-weight-bold font-italic" style={{ color: "#0dcaf0" }}>BSc in Civil Engineering Diploma</span>
+                                        <br />
+                                        <a href="https://drive.google.com/file/d/1NinoTzGgnnHOMOQ9Q9IIXxxxiDF20dn9/view?usp=sharing" target="_blank">View Diploma</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        )}
+
                     </div>
                 </div>
         </section>
