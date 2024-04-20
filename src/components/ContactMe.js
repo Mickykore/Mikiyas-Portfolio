@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const ContactMe = () => {
     return (
         <section className="container-fluid" style={{ backgroundColor: '#f8f9fa', minHeight: "100vh" }} id='contact'>
-            <div className="contact-section row justify-content-center align-items-center mt-5">
+            <div className="contact-section row justify-content-center align-items-center m-5">
                 {/* Contact Information */}
                 <div className="col-md-6 contact-info">
                     <h3 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>Contact Information</h3>
