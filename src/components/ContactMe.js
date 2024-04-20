@@ -3,8 +3,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const ContactMe = () => {
     return (
-        <section className="container-fluid mt-5" style={{ backgroundColor: '#f8f9fa' }} id='contact'>
-            <div className="contact-section row justify-content-center align-items-center m-4 vh-100">
+        <section className="container-fluid" style={{ backgroundColor: '#f8f9fa', minHeight: "100vh" }} id='contact'>
+            <div className="contact-section row justify-content-center align-items-center mt-5">
                 {/* Contact Information */}
                 <div className="col-md-6 contact-info">
                     <h3 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>Contact Information</h3>
@@ -26,7 +26,7 @@ const ContactMe = () => {
                 </div>
 
                 {/* Contact Form */}
-                <div className="col-md-6 contact-form">
+                <div className="col-md-6 contact-form mt-5">
                     <h3 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>Send Me a Message</h3>
                     <form id="contactForm" action="mailto:dagimwalelegne@gmail.com" method="post" encType="text/plain">
                         <div className="mb-3">
