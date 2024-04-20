@@ -10,11 +10,11 @@ const Footer = () => {
                 <p>Addis Ababa <br/> Nifas Silk Lafto, Woreda 10</p>
             </div>
             <div className="social-icons">
-                <a href="https://www.facebook.com"><FaFacebook /></a>
-                <a href="#"><FaXTwitter /></a>
-                <a href="https://github.com"><FaGithub /></a>
-                <a href="https://www.linkedin.com"><FaLinkedin /></a>
-                <a href="https://discord.com"><FaDiscord /></a>
+                <a href="https://www.facebook.com/mikiyas.ayele1"><FaFacebook /></a>
+                <a href="https://twitter.com/MikiyasKore"><FaXTwitter /></a>
+                <a href="https://github.com/Mickykore"><FaGithub /></a>
+                <a href="https://www.linkedin.com/in/mikiyas-ayele"><FaLinkedin /></a>
+                <a href="https://discord.com/users/994946188426096672"><FaDiscord /></a>
             </div>
         </footer>
     );
