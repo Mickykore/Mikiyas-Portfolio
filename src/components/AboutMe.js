@@ -73,6 +73,13 @@ const AboutMe = () => {
                                             - Developed and maintained a comprehensive inventory management system using the MERN stack
                                         </li>
                                     </ul>
+                                    <ul className='col-md-4'>
+                                        <li>
+                                            <span style={{ color: "#0dcaf0" }}>Web Developer Intern</span>      <br />
+                                            <span style={{ color: "#0dcaf0" }}>Kasma Solution, Adiss Ababa</span> | 4/2024 - 06/2024<br />
+                                            - Developed and maintained a comprehensive Event Mangement system using the MERN stack
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

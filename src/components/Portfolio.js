@@ -1,6 +1,7 @@
 import React from 'react';
 import portfolio1 from '../photos/portfolio1.png';
 import construction from '../photos/construction1.png';
+import embraceEvent from '../photos/Embrace events.png';
 
 const Portfolio = () => {
     return (
@@ -16,7 +17,7 @@ const Portfolio = () => {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 bg-dark">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <a href="https://inventoryapp-seven.vercel.app/"><img className="img-fluid" src={portfolio1} alt="..." /></a>
+                            <a href="https://inventoryapp-seven.vercel.app/" target="_blank"><img className="img-fluid" src={portfolio1} alt="..." /></a>
                             <h5 className="text-center p-3" style={{ color: "black", fontWeight: "bold" }}>inventory Management app</h5>
                             
                         </div>
@@ -26,7 +27,7 @@ const Portfolio = () => {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 bg-dark">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <a href="https://construction-site-management-web-app.onrender.com/"><img className="img-fluid" src={construction} alt="..." /></a>
+                            <a href="https://construction-site-management-web-app.onrender.com/" target="_blank"><img className="img-fluid" src={construction} alt="..." /></a>
                             <h5 className="text-center p-3" style={{ color: "black", fontWeight: "bold" }}>construction Site Management app</h5>
 
                         </div>
@@ -37,7 +38,7 @@ const Portfolio = () => {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 bg-dark">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img className="img-fluid" src={portfolio1} alt="..." />
+                            <a href="https://www.embracevents.com/" target="_blank"><img className="img-fluid" src={embraceEvent} alt="..." /></a>
                         </div>
                     </div>
                     <div className="col-md-6 mb-5 mt-5">
