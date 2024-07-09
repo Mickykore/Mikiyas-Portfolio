@@ -21,7 +21,7 @@ const Header = () => {
                     </Navbar.Toggle>
                     <Navbar.Collapse>
                         <Nav className="ml-auto">
-                            <Nav.Link href="#home" onClick={() => setExpanded(false)}>Home</Nav.Link>
+                            <Nav.Link  href="#home" onClick={() => setExpanded(false)}>Home</Nav.Link>
                             <Nav.Link href="#about" onClick={() => setExpanded(false)}>About Me</Nav.Link>
                             <Nav.Link href="#portfolio" onClick={() => setExpanded(false)}>Portfolio</Nav.Link>
                             <Nav.Link href="#contact" onClick={() => setExpanded(false)}>Contact Me</Nav.Link>

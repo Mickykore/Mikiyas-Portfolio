@@ -17,7 +17,7 @@ const Portfolio = () => {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 bg-dark">
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <a href="https://inventoryapp-seven.vercel.app/" target="_blank"><img className="img-fluid" src={portfolio1} alt="..." /></a>
+                            <a href="https://inventoryapp-phi.vercel.app" target="_blank"><img className="img-fluid" src={portfolio1} alt="..." /></a>
                             <h5 className="text-center p-3" style={{ color: "black", fontWeight: "bold" }}>inventory Management app</h5>
                             
                         </div>
