@@ -1,6 +1,6 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import { FaLinkedinIn } from 'react-icons/fa';
 const ContactMe = () => {
     return (
         <section className="container-fluid" style={{ backgroundColor: '#f8f9fa', minHeight: "100vh" }} id='contact'>
@@ -17,6 +17,13 @@ const ContactMe = () => {
                         <i className="fas fa-phone"></i>
                         <span style={{ fontSize: '1.25rem', marginLeft: '1rem' }}>Phone:</span>
                         <p style={{ fontSize: '1.1rem' }}>+251912292684</p>
+                    </div>
+                    <div className="mb-3">
+                        <i className="fas fa-linkden"><FaLinkedinIn /></i>
+                        <span style={{ fontSize: '1.25rem', marginLeft: '1rem' }}>LinkedIn:</span>
+                        <p style={{ fontSize: '1.1rem' }}>
+                            <a href="https://www.linkedin.com/in/mikiyas-ayele" target="_blank" rel="noopener noreferrer">linkedin.com/in/mikiyas-ayele</a>
+                        </p>
                     </div>
                     <div className="mb-3">
                         <i className="fas fa-map-marker-alt"></i>

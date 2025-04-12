@@ -10,8 +10,7 @@ const AboutMe = () => {
                 <div>
                     <h2>About Me</h2>
                     <p>
-                        I'm a Civil Engineer and <strong style={{ color: "red" }}>Full Stack Developer</strong> with a passion for problem-solving and coding. 
-                        A quick learner, I eagerly embrace new technologies. 
+                        I'm a Civil Engineer and <strong style={{ color: "red" }}>Full Stack Developer</strong> with a passion for problem-solving and coding. With hands-on experience in Java development and the MERN stack, I am a quick learner who eagerly embraces new technologies. 
                         I excel in teamwork, thrive under pressure, and go the extra mile to deliver. 
                         Known for creative problem-solving, I value collaboration and feedback. 
                         Self-motivated, I continuously seek to enhance my skills and knowledge. 
@@ -40,9 +39,9 @@ const AboutMe = () => {
                             <ul>
                                 <li className="mb-3">Innovation, MERN Software, Teamwork</li>
                                 <li className="mb-3"><strong style={{ color: "#0dcaf0" }}>Frontend:</strong> Bootstrap, CSS3, HTML5, JavaScript, React.js</li>
-                                <li className="mb-3"><strong style={{ color: "#0dcaf0" }}>Backend:</strong> Django, Express.js, Node.js, Python, User Authentication</li>
+                                <li className="mb-3"><strong style={{ color: "#0dcaf0" }}>Backend:</strong> Java, Django, Express.js, Node.js, Python, User Authentication</li>
                                 <li className="mb-3"><strong style={{ color: "#0dcaf0" }}>Databases:</strong> MongoDB, MySQL</li>
-                                <li className="mb-3"><strong style={{ color: "#0dcaf0" }}>Other Technologies:</strong> Git, GitHub, Java</li>
+                                <li className="mb-3"><strong style={{ color: "#0dcaf0" }}>Other Technologies:</strong> Git, GitHub</li>
                             </ul>
                         </div>
                     )}
@@ -52,32 +51,18 @@ const AboutMe = () => {
                             <h3 className="mb-4">Experience</h3>
                             <div className="container">
                                 <div className='row'>
-                                    <ul className='col-md-4'>
+                                    <ul className='col-md-8'>
                                         <li>
-                                            <span style={{ color: "#0dcaf0" }}>Web Developer Freelancer</span> <br />
-                                            <span style={{ color: "#0dcaf0" }}>Mesfin General Contractor, Addis Ababa</span> | 03/2024 - Present <br />
+                                            <span style={{ color: "#0dcaf0" }}>Site Engineer</span> <br />
+                                            <span style={{ color: "#0dcaf0" }}>Tofcon Construction, Addis Ababa, Ethiopia </span> | Sep 2018 – Jun 2021 <br />
                                             <p> - Developed and maintained a comprehensive site management system using the MERN stack and continues to monitor and maintain the application to ensure optimal performance and functionality.</p>
                                         </li>
                                     </ul>
-                                    <ul className='col-md-4'>
+                                    <ul className='col-md-8'>
                                         <li>
-                                            <span style={{ color: "#0dcaf0" }}>Web Developer Freelancer </span>     <br />
-                                            <span style={{ color: "#0dcaf0" }}>YD Accessories, Adama</span> |  01/2024 - Present<br />
-                                            - Developed and maintained a comprehensive inventory management system using the MERN stack and continues to monitor and maintain the application to ensure optimal performance and functionality.
-                                        </li>
-                                    </ul>
-                                    <ul className='col-md-4'>
-                                        <li>
-                                            <span style={{ color: "#0dcaf0" }}>Web Developer Freelancer</span>      <br />
-                                            <span style={{ color: "#0dcaf0" }}>Joka Trading, Adama</span> | 12/2023 - 04/2024<br />
-                                            - Developed and maintained a comprehensive inventory management system using the MERN stack
-                                        </li>
-                                    </ul>
-                                    <ul className='col-md-4'>
-                                        <li>
-                                            <span style={{ color: "#0dcaf0" }}>Web Developer Intern</span>      <br />
-                                            <span style={{ color: "#0dcaf0" }}>Kasma Solution, Adiss Ababa</span> | 4/2024 - 06/2024<br />
-                                            - Developed and maintained a comprehensive Event Mangement system using the MERN stack
+                                            <span style={{ color: "#0dcaf0" }}>Java Developer</span>      <br />
+                                            <span style={{ color: "#0dcaf0" }}>Omishtu-JOY Tech Solution PLC, Addis Ababa, Ethiopia  </span> | Dec 2023 – Sep 2024<br />
+                                            - Developed an Event Management System using Java (Spring Boot) and React with features for event browsing, ticketing, payments, user registration, and admin management.
                                         </li>
                                     </ul>
                                 </div>
@@ -89,13 +74,6 @@ const AboutMe = () => {
                         <div>
                             <h3 className="mb-4">Education</h3>
                             <ul>
-                                <li className="mb-4">
-                                    <span className="font-weight-bold font-italic" style={{ color: "#0dcaf0" }}>Software Engineering Program</span>
-                                    <br />
-                                    <span className="text-cyan">ALX</span>
-                                    <br />
-                                    <span className="text-cyan">09/2023</span>
-                                </li>
                                 <li className="mb-4">
                                     <span className="font-weight-bold font-italic" style={{ color: "#0dcaf0" }}>BSc in Civil Engineering</span>
                                     <br />

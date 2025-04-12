@@ -1,7 +1,7 @@
 import React from 'react';
 import portfolio1 from '../photos/portfolio1.png';
 import construction from '../photos/construction1.png';
-import embraceEvent from '../photos/Embrace events.png';
+import embraceEvent from '../photos/Screenshot 2025-04-12 173155.png';
 
 const Portfolio = () => {
     return (
